@@ -38,25 +38,25 @@ Copyright (c) 2018 by Biologically Inspired Computer Vision Group at Imperial Co
 2. Install MatConvNet
 3. Install Anaconda 3.6
 4. Make downgrade to python version 3.5 using following formula
-'''
+```
 conda install python=3.5
-'''
+```
 5. Install Tensorflow in Anaconda
-'''
+```
 conda create -n tensorflow pip python=3.5
 activate tensorflow
 pip install --ignore-installed --upgrade tensorflow
-'''
+```
 6. Install keras and then change the keras_backend to Tensorflow (in the path: /home/user/anaconda2/envs/tfpy36/etc/conda/activate.d/keras_activate.sh)
-'''
+```
 conda install -c conda-forge keras
-'''
+```
 7. Install Spyder in Anaconda: https://anaconda.org/conda-forge/spyder
 8. Setup Matlab engine for python
-'''
+```
 c:\matlab\R2017a\extern\engines\python
 python setup.py install
-'''
+```
 
 ### Running procedure
 1. Activate the anaconda environment in a cmd window, and type spyder. Then you should see something like
