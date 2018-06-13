@@ -11,10 +11,21 @@ Copyright (c) 2018 by Biologically Inspired Computer Vision Group at Imperial Co
 
 
 ### Files
-1. Data: ShapeData.mat, StressData.mat
-2. Code of DL-model: DLStress.py, im2patch.m, UnsupervisedLearning.m,
-3. Code for visualization: ReadMeshFromVTKFile.m, ReadPolygonMeshFromVTKFile.m, WritePolygonMeshAsVTKFile.m, Visualization.m
-4. Template meshes for visualization: TemplateMesh3D.vtk, TemplateMesh2D.vtk
+1. Data: 
+- ShapeData.mat
+- StressData.mat
+2. Code of DL-model: 
+- DLStress.py
+- im2patch.m 
+- UnsupervisedLearning.m
+3. Code for visualization: 
+- ReadMeshFromVTKFile.m
+- ReadPolygonMeshFromVTKFile.m
+- WritePolygonMeshAsVTKFile.m
+- Visualization.m
+4. Template meshes for visualization:
+- TemplateMesh3D.vtk
+- TemplateMesh2D.vtk
 
 
 ### System Requirement
@@ -23,10 +34,10 @@ Copyright (c) 2018 by Biologically Inspired Computer Vision Group at Imperial Co
 
 
 ### Software Requirement
-- **Anaconda**: https://www.anaconda.com/download/; select the python 3.6 version
+- **Anaconda 3.6**: https://www.anaconda.com/download/;
 - **Keras 2.0.4**: https://github.com/fchollet/keras. Keras can be install from Anaconda Cloud: https://anaconda.org/anaconda/keras
 - **Tensorflow 1.1.0**: https://www.tensorflow.org/. Tensorflow CPU version can be installed from Anaconda Cloud: https://anaconda.org/conda-forge/tensorflow
-- **Matlab** (at least 2016b): https://www.mathworks.com/products/matlab.html
+- **Matlab 2017a**: https://www.mathworks.com/products/matlab.html
 - **MatConvNet**: http://www.vlfeat.org/matconvnet/; version 1.0-beta24 (backward compatibility not guaranteed)
 - **Paraview**: https://www.paraview.org/download/; https://www.paraview.org/paraview-guide/
 - **Spyder**: https://spyder-ide.github.io
@@ -36,7 +47,7 @@ Copyright (c) 2018 by Biologically Inspired Computer Vision Group at Imperial Co
 ### Installation guide
 1. Install Matlab
 2. Install MatConvNet
-3. Install Anaconda 3.6
+3. Install Anaconda 
 4. Make downgrade to python version 3.5 using following formula
 ```
 conda install python=3.5
