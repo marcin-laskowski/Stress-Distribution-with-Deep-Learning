@@ -58,7 +58,7 @@ conda create -n tensorflow pip python=3.5
 activate tensorflow
 pip install --ignore-installed --upgrade tensorflow
 ```
-6. Install keras and then change the keras_backend to Tensorflow (in the path: /home/user/anaconda2/envs/tfpy36/etc/conda/activate.d/keras_activate.sh)
+6. Install keras and then change the keras_backend to Tensorflow (in the path: .../anaconda3/envs/tensorflow/etc/conda/activate.d/keras_activate.sh)
 ```
 conda install -c conda-forge keras
 ```
