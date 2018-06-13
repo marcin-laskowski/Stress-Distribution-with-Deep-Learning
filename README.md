@@ -12,20 +12,20 @@ Copyright (c) 2018 by Biologically Inspired Computer Vision Group at Imperial Co
 
 ## Files
 1. **Data**: 
-- ShapeData.mat
-- StressData.mat
+  - ShapeData.mat
+  - StressData.mat
 2. **Code of DL-model**: 
-- DLStress.py
-- im2patch.m 
-- UnsupervisedLearning.m
+  - DLStress.py
+  - im2patch.m 
+  - UnsupervisedLearning.m
 3. **Code for visualization**: 
-- ReadMeshFromVTKFile.m
-- ReadPolygonMeshFromVTKFile.m
-- WritePolygonMeshAsVTKFile.m
-- Visualization.m
+  - ReadMeshFromVTKFile.m
+  - ReadPolygonMeshFromVTKFile.m
+  - WritePolygonMeshAsVTKFile.m
+  - Visualization.m
 4. **Template meshes for visualization**:
-- TemplateMesh3D.vtk
-- TemplateMesh2D.vtk
+  - TemplateMesh3D.vtk
+  - TemplateMesh2D.vtk
 
 
 ## System Requirement
