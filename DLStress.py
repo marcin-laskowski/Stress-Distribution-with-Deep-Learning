@@ -359,7 +359,7 @@ sio.savemat(ResultFile,
 # %%
 # to save the predicted stress distribution during cross validation
 # insert the function below to the code block of the cross validation
-# sio.savemat('StressData_pred.mat', {'Sp':Sp, 'idx_test':idx_test})
+sio.savemat('StressData_pred.mat', {'Sp':Sp, 'idx_test':idx_test})
 
 
 # %% show the time cost on the testing set: input shape, output stress
