@@ -75,6 +75,6 @@ python setup.py install
 ## Running procedure
 1. Activate the anaconda environment in a cmd window, and type spyder. Then you should see something like
 this. Spyder is a Python IDE. The current directory of Spyder is shown on top right. Open DLStress.py in Spyder, and run the code. You need to change the current directory of Spyder so that it contains DLStress.py. Change the path of MatConvnet in UnsupervisedLearning.m
-2. Create folder 'result'
+2. Create in the main folder empty directory: 'result' and 'result2'
 3. Once you save the result to mat files, open Visualization.m, and then convert the result to vtk files.
 4. Open the vtk files in Paraview. You will see the ground-truth and predicted stress fields on 2D/3D meshes.
