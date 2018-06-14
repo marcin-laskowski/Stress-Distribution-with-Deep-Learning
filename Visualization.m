@@ -99,7 +99,7 @@ for Index=1:length(idx_test)
     Mesh3D.PointData(3).Data=S12(:);
     Mesh3D.PointData(4).Name='Von';
     Mesh3D.PointData(4).Data=Von(:);
-    WritePolygonMeshAsVTKFile(Mesh3D, ['result/' num2str(ShapeIndex) '_Aorta_stress_DL.vtk'])
+    WritePolygonMeshAsVTKFile(Mesh3D, ['result2/' num2str(ShapeIndex) '_Aorta_stress_DL.vtk'])
 
     % show predicted stress on 2D mesh
     S11=StressData_pred(1,:,Index);
@@ -112,7 +112,7 @@ for Index=1:length(idx_test)
     S12=reshape(S12, [50, 100]);
     S12(end+1,:)=S12(1,:);
     Von=sqrt(S11.*S11+S22.*S22-S11.*S22+3*S12.*S12);
-    Mesh2D = ReadPolygonMeshFromVTKFile('result/TemplateMesh2D.vtk');
+    Mesh2D = ReadPolygonMeshFromVTKFile('TemplateMesh2D.vtk');
     Mesh2D.PointData(1).Name='S11';
     Mesh2D.PointData(1).Data=S11(:);
     Mesh2D.PointData(2).Name='S22';
@@ -121,5 +121,5 @@ for Index=1:length(idx_test)
     Mesh2D.PointData(3).Data=S12(:);
     Mesh2D.PointData(4).Name='Von';
     Mesh2D.PointData(4).Data=Von(:);
-    WritePolygonMeshAsVTKFile(Mesh2D, ['result/' num2str(ShapeIndex) '_StressGrid_DL.vtk'])
+    WritePolygonMeshAsVTKFile(Mesh2D, ['result2/' num2str(ShapeIndex) '_StressGrid_DL.vtk'])
 end
