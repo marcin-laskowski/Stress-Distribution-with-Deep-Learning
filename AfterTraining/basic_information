@@ -1,0 +1,17 @@
+%%% KERAS BACKEND TO TENSORFLOW
+/home/user/anaconda2/envs/tfpy36/etc/conda/activate.d/keras_activate.sh
+C:\anaconda\envs\tensorflow\etc\conda\activate.d
+
+
+%%% ANACONDA DOWNGRADE TO PYTHON 3.5
+conda install python=3.5
+
+
+%%% MATLAB LIBRARY FOR PYTHON
+cd "c:\matlab\R2017a\extern\engines\python"
+python setup.py install
+
+
+%%% MATCONVNET
+in matlab go to directory ..\matlab and run in command window:
+vl_compilenn
