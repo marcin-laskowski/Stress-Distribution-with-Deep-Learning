@@ -344,7 +344,7 @@ for k in range(0, 100):
 
 # %%
 sio.savemat(ResultFile,
-            {'DataFile': DataFile,
+            {'DataFile': TempDataFile,
              'IndexList_test': IndexList_test, 'IndexList_train': IndexList_train,
              'VMMAE': VMMAE, 'VMNMAE': VMNMAE,
              'S11MAE': S11MAE, 'S11NMAE': S11NMAE,
