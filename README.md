@@ -46,7 +46,10 @@ Copyright (c) 2018 by Biologically Inspired Computer Vision Group at Imperial Co
 
 ## Installation guide
 1. Install Matlab
-2. Install MatConvNet
+2. Install MatConvNet - In Matlab software go to directory ...\matconvnet-1.0-beta25\matlab\ and run the file:
+```
+v1_compilenn.m
+```
 3. Install Anaconda
 4. Make downgrade to python version 3.5 using following formula
 ```
